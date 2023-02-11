@@ -4,7 +4,7 @@
 
 #define MAX_INFO    20
 
-typedef struct verifyInfo_t {
+struct verifyInfo_t {
     char name[MAX_LEN * 2];
     char surname[MAX_LEN * 2];
     char cn[MAX_LEN * 2];

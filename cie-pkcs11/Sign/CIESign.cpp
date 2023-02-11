@@ -14,7 +14,8 @@ CIESign::CIESign(IAS *ias){
 
 uint16_t CIESign::sign(const char* inFilePath, const char* type, const char* pin, int page, float x, float y, float w, float h, const char* imagePathFile,const char* outFilePath)
 {
-
+  abort();
+#if 0
 	uint16_t response;
 
 	DISIGON_CTX ctx = NULL;
@@ -155,5 +156,5 @@ uint16_t CIESign::sign(const char* inFilePath, const char* type, const char* pin
 	response = ret;
 
 	return response;
-
+#endif
 }

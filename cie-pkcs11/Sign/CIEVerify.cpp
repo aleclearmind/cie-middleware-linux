@@ -10,7 +10,8 @@ CIEVerify::CIEVerify()
 
 long CIEVerify::verify(const char* input_file, VERIFY_RESULT* verifyResult, const char* proxy_address, int proxy_port, const char* userPass)
 {
-
+    abort();
+#if 0
 		try {
 
 			DISIGON_CTX ctx;
@@ -99,10 +100,12 @@ long CIEVerify::verify(const char* input_file, VERIFY_RESULT* verifyResult, cons
 	catch (long err) {
 		LOG_ERROR("CIEVerify::verify error: %lx", err);
 	}
+#endif
 }
 
 long CIEVerify::get_file_from_p7m(const char* input_file, const char* output_file){
-
+  abort();
+#if 0
 	try
 	{
 		DISIGON_CTX ctx;
@@ -145,5 +148,5 @@ long CIEVerify::get_file_from_p7m(const char* input_file, const char* output_fil
 		LOG_ERROR("CIEVerify::verify error: %lx", err);
 		return err;
 	}
-
+#endif
 }

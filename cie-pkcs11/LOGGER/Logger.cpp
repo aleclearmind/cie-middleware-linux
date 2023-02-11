@@ -1,3 +1,4 @@
+#include <cstring>
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
@@ -234,7 +235,7 @@ string Logger::getCurrentTime()
     
     strftime(pbtDate, sizeof(pbtDate), "%Y-%m-%d %H:%M:%S", gmtime(&curTime.tv_sec));
     
-    sprintf(pbtDate, "%s:%03d", pbtDate, milli);
+    // sprintf(pbtDate, "%s:%03d", pbtDate, milli);
 
 	return pbtDate;
 }

@@ -9,7 +9,7 @@ extern unsigned int GlobalDepth;
 extern bool GlobalParam;
 char szEmpty[]={'\0'};
 
-#if 0 
+#if 1
 CFuncCallInfo::CFuncCallInfo(const char *name, CLog &logInfo) : log(logInfo) {
 	fName = name;
 	//OutputDebugString(fName);

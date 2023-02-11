@@ -10,7 +10,9 @@
 #include <errno.h>
 #include <pthread.h>
 
+#ifndef MAX_PATH
 #define MAX_PATH 1024
+#endif
 
 #define __time64_t  __int64_t
 
