@@ -64,3 +64,7 @@ pkg_check_modules(PCSCLITE REQUIRED libpcsclite)
 target_link_libraries(cie-pkcs11 ${PCSCLITE_LIBRARIES})
 target_include_directories(cie-pkcs11 PUBLIC ${PCSCLITE_INCLUDE_DIRS})
 target_compile_options(cie-pkcs11 PUBLIC ${PCSCLITESDL2_CFLAGS_OTHER})
+
+
+add_executable(enable-cie enable-cie.cpp)
+target_link_libraries(enable-cie cie-pkcs11)
