@@ -1,7 +1,7 @@
 #include "IniSettings.h"
 #include "../Crypto/Base64.h"
 #include <sstream>
-#include "../Cryptopp/misc.h"
+#include "cryptopp/misc.h"
 
 std::vector<IniSettings*> _iniSettings;
 

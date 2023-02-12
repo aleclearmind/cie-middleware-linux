@@ -18,13 +18,13 @@
 #include <string>
 #include "AbilitaCIE.h"
 #include <string>
-#include "../Cryptopp/misc.h"
+#include "cryptopp/misc.h"
 
 #include "../Crypto/ASNParser.h"
 #include <stdio.h>
 #include "../Crypto/AES.h"
-#include "../Cryptopp/cryptlib.h"
-#include "../Cryptopp/asn.h"
+#include "cryptopp/cryptlib.h"
+#include "cryptopp/asn.h"
 #include "../Util/CryptoppUtils.h"
 #include "../Crypto/CryptoUtil.h"
 #include "../Sign/CIESign.h"

@@ -1,6 +1,6 @@
 
 #include "MAC.h"
-#include "../Cryptopp/hmac.h"
+#include "cryptopp/hmac.h"
 
 //extern CLog Log;
 

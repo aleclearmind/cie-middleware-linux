@@ -1,8 +1,8 @@
 
 #include "../PKCS11/wintypes.h"
 #include "Base64.h"
-#include "../Cryptopp/cryptlib.h"
-#include "../Cryptopp/base64.h"
+#include "cryptopp/cryptlib.h"
+#include "cryptopp/base64.h"
 
 //extern CLog Log;
 

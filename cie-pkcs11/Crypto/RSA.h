@@ -4,7 +4,7 @@
 #include <bcrypt.h>
 #else
 #include <openssl/rsa.h>
-#include "../Cryptopp/rsa.h"
+#include "cryptopp/rsa.h"
 #endif
 #include "../PKCS11/wintypes.h"
 #include "../Util/Array.h"

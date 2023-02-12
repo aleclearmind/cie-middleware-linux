@@ -1,9 +1,9 @@
 #include "Array.h"
 #include <fstream>
-#include "../Cryptopp/cryptlib.h"
-#include "../Cryptopp/misc.h"
-#include "../Cryptopp/secblock.h"
-#include "../Cryptopp/osrng.h"
+#include "cryptopp/cryptlib.h"
+#include "cryptopp/misc.h"
+#include "cryptopp/secblock.h"
+#include "cryptopp/osrng.h"
 #include <openssl/rand.h>
 //#include <windows.h>
 //#include <bcrypt.h>

@@ -20,7 +20,7 @@
 #include <string>
 #include "AbilitaCIE.h"
 #include <string>
-#include "../Cryptopp/misc.h"
+#include "cryptopp/misc.h"
 #include "../LOGGER/Logger.h"
 
 using namespace CieIDLogger;

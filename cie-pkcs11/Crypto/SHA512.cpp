@@ -35,9 +35,9 @@ ByteDynArray CSHA512::Digest(ByteArray &data)
 
 #else
 
-#include "../Cryptopp/sha.h"
-#include "../Cryptopp/filters.h"
-#include "../Cryptopp/base64.h"
+#include "cryptopp/sha.h"
+#include "cryptopp/filters.h"
+#include "cryptopp/base64.h"
 #include "../PKCS11/wintypes.h"
 
 void CSHA512::Init() {

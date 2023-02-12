@@ -6,8 +6,8 @@
 #include <stdio.h>
 #include "../Crypto/AES.h"
 #include "../PCSC/PCSC.h"
-#include "../Cryptopp/cryptlib.h"
-#include "../Cryptopp/asn.h"
+#include "cryptopp/cryptlib.h"
+#include "cryptopp/asn.h"
 #include "../Util/CryptoppUtils.h"
 #include "../LOGGER/Logger.h"
 

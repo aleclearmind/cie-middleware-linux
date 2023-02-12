@@ -28,9 +28,9 @@
 #include "CryptoppUtils.h"
 #include <sstream>
 
-#include "../Cryptopp/base64.h"
-#include "../Cryptopp/hex.h"
-#include "../Cryptopp/osrng.h"
+#include "cryptopp/base64.h"
+#include "cryptopp/hex.h"
+#include "cryptopp/osrng.h"
 
 using namespace CryptoPP;
 

@@ -8,7 +8,7 @@
 #include "../Util/util.h"
 #include "../Util/SyncroEvent.h"
 #include <mutex>
-#include "../Cryptopp/misc.h"
+#include "cryptopp/misc.h"
 #include "../LOGGER/Logger.h"
 
 using namespace CieIDLogger;

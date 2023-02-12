@@ -67,9 +67,9 @@ ByteDynArray CRSA::RSA_PURE(ByteArray &data)
 
 #else
 
-#include "../Cryptopp/rsa.h"
-#include "../Cryptopp/secblock.h"
-#include "../Cryptopp/pssr.h"
+#include "cryptopp/rsa.h"
+#include "cryptopp/secblock.h"
+#include "cryptopp/pssr.h"
 
 using CryptoPP::InvertibleRSAFunction;
 using CryptoPP::RSASS;

@@ -9,11 +9,11 @@
 #ifndef CryptoUtil_h
 #define CryptoUtil_h
 
-#include "../Cryptopp/modes.h"
-#include "../Cryptopp/aes.h"
-#include "../Cryptopp/filters.h"
+#include "cryptopp/modes.h"
+#include "cryptopp/aes.h"
+#include "cryptopp/filters.h"
 #include "../keys.h"
-#include "../Cryptopp/sha.h"
+#include "cryptopp/sha.h"
 #include <string>
 
 using namespace CryptoPP;
