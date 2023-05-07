@@ -59,7 +59,5 @@ int main(int argc, char *argv[]) {
   rv = proxy->C_Finalize (NULL);
   assert (rv == CKR_OK);
 
-  sleep(10);
-
   return EXIT_SUCCESS;
 }
