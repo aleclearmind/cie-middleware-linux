@@ -2,6 +2,7 @@
 #define _LOGGER_H_
 
 // C++ Header File(s)
+#include <cstdint>
 #include <iostream>
 #include <fstream>
 #include <sstream>
