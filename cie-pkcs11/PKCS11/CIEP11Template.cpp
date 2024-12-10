@@ -1,4 +1,4 @@
-#include <cassert>
+
 #include "CIEP11Template.h"
 #include "../CSP/IAS.h"
 #include "../PCSC/CardLocker.h"
@@ -156,7 +156,6 @@ void CIEtemplateInitSession(void *pTemplateData){
 			cie->ias.ReadDappPubKey(resp);
 			cie->ias.InitEncKey();
 			cie->ias.GetCertificate(certRaw, true);
-      assert(certRaw.size() != 0);
 		}
 
         
